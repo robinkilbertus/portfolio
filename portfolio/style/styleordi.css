@@ -1,0 +1,464 @@
+@media (min-width: 768px) {
+
+    * {
+        font-family: 'Roboto', sans-serif;
+        box-sizing: border-box;
+        color: white;
+        scroll-behavior: smooth;
+    }
+
+    .headerproj {
+        top: 0;
+        left: 0;
+        position: fixed;
+        width: 100%;
+        height: 14vh;
+        background-color: #AA3840;
+        display: flex;
+        align-items: center;
+        z-index: 2;
+    }
+
+    .bodyproj {
+        margin-top: 20vh;
+        background-color: #ecc196;
+
+    }
+
+    .presproj {
+        width: 50%;
+        text-align: center;
+    }
+
+    #veille {
+        margin-top: 15vh;
+        font-size: 3.5vw;
+        width: 65%;
+        text-align: center;
+    }
+
+    #veillep {
+        width: 40vw;
+        text-align: justify;
+        font-size: 3vh;
+    }
+
+    #Colorveille>div>div>a>img {
+        max-width: 40vw;
+    }
+
+    #divveille {
+        display: flex;
+        height: 70vh;
+        justify-content: space-around;
+        align-items: center;
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+    }
+
+    #headeraccueil {
+        top: 0;
+        left: 0;
+        position: fixed;
+        width: 100%;
+        height: 14vh;
+        background-color: #a9383f;
+        display: flex;
+        align-items: center;
+        z-index: 2;
+    }
+
+
+    #Color1>p {
+        text-align: justify;
+    }
+
+    a.smooth-scroll {
+        transition: color 0.3s ease-in-out;
+    }
+
+    #gradient {
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 25vh;
+        background-image: linear-gradient(to bottom, #ecc196, #d25865);
+        z-index: -1;
+    }
+
+    #gradient2 {
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 25vh;
+        background-image: linear-gradient(to bottom, #BE4852, #a9383f);
+        z-index: -1;
+    }
+
+    #gradientveille {
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 25vh;
+        background-image: linear-gradient(to bottom, #d25865, #BE4852);
+        z-index: -1;
+    }
+
+    #Color1 {
+        height: 120vh;
+        width: 100%;
+        background-color: #ecc196;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    #Colorveille {
+        height: 100vh;
+        width: 100%;
+        background-color: #BE4852;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+
+
+    #Color2 {
+        height: 100vh;
+        width: 100%;
+        background-color: #d25865;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    #Color3 {
+        height: 100vh;
+        width: 100%;
+        background-color: #a9383f;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+
+    }
+
+    h1 {
+        font-family: 'Yellowtail', cursive;
+    }
+
+
+    #menubourgourproj {
+        display: none;
+    }
+
+    #menubourgour {
+        display: none;
+    }
+
+    #contact {
+        margin-top: 15vh;
+        width: 65%;
+        font-size: 4vw;
+        text-align: center;
+    }
+
+    #divcontact {
+        width: 65%;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #bienvenue {
+        width: 65%;
+        text-align: center;
+        font-size: 4vw;
+    }
+
+    #projets {
+        width: 65%;
+        text-align: center;
+        margin-top: 15vh;
+        font-size: 4vw;
+    }
+
+    #divslider {
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+    }
+
+    .slider-1 {
+        max-width: 50vw;
+        overflow: hidden;
+    }
+
+    .slider-1 .slider {
+        display: flex;
+        animation: slider-1 20s infinite ease-in-out;
+    }
+
+    .slide {
+        flex-shrink: 0;
+        width: 100%;
+    }
+
+    .slide a {
+        display: block;
+    }
+
+    .slide img {
+        width: 100%;
+        height: auto;
+    }
+
+    .slider-p {
+        max-width: 40vw;
+        overflow: hidden;
+    }
+
+    .slider-p .text-slide {
+        display: flex;
+        animation: slider-1 20s infinite ease-in-out;
+    }
+
+    .slider-p p {
+        flex-shrink: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    @keyframes slider-1 {
+
+        0%,
+        20% {
+            transform: translateX(0);
+        }
+
+        25%,
+        45% {
+            transform: translateX(-100%);
+        }
+
+        50%,
+        70% {
+            transform: translateX(-200%);
+        }
+
+        75%,
+        95% {
+            transform: translateX(-300%);
+        }
+
+        100% {
+            transform: translateX(-400%);
+        }
+    }
+
+    img {
+        border-top: solid white;
+        border-top-right-radius: 50px;
+        border-bottom: solid white;
+        border-bottom-left-radius: 50px;
+
+        padding: 10px
+    }
+
+    .divc {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .divc>a {
+        font-size: 2.5vw;
+        position: relative;
+    }
+
+    #divtitre {
+        width: 50vw;
+        text-align: center;
+    }
+
+
+    #Ppres {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+    }
+
+    #Ppres>p {
+        font-size: 1.5vw;
+    }
+
+    #pdp {
+        max-height: 36.5vw;
+
+    }
+
+    #imgmoi {
+        width: 35%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #presentation {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #quisouij {
+        width: 50%;
+        font-size: 2.5vw;
+        margin-top: 7vh;
+        text-align: center;
+    }
+
+    #presmob {
+        display: none;
+    }
+
+    #divtitre>h1 {
+        font-size: 2.5vw;
+        font-family: 'Yellowtail', cursive;
+    }
+
+    #redirect {
+        width: 50vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        margin-right: 5vw;
+    }
+
+    #redirect>a {
+        margin-left: 5vw;
+        font-size: 1.5vw;
+        position: relative;
+    }
+
+    #ligne {
+        width: 2px;
+        height: 90%;
+        background-color: white;
+    }
+
+    #hr {
+        display: none;
+    }
+
+    #divpagev {
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #presveille {
+        width: 45vw;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: justify;
+    }
+
+    #divpagev {
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+    }
+
+    #imgmoi {
+        opacity: 0;
+        transition: opacity 2s ease-in-out;
+    }
+
+    #presveille>div {
+        width: 70%;
+    }
+
+    #logos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #logos>img {
+        max-width: 10vw;
+    }
+
+
+    #pgen {
+        width: 70%;
+    }
+
+    #bodyv {
+        margin-top: 15vh;
+    }
+
+    #prescertif>p {
+        width: 30vw;
+        text-align: justify;
+    }
+
+    #prescertif {
+        width: 45vw;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #burger {
+        display: none;
+    }
+
+    a.effect-underline::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        display: inline-block;
+        height: 1em;
+        width: 100%;
+        border-bottom: 1px solid;
+        margin-top: 10px;
+        opacity: 0;
+        -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+        transition: opacity 0.35s, transform 0.35s;
+        -webkit-transform: scale(0, 1);
+        transform: scale(0, 1);
+    }
+
+    a.effect-underline:hover:after {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #a9383f;
+}
