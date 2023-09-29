@@ -102,7 +102,7 @@
                             le domaine de l'informatique, et plus spécifiquement la branche du développement.
                         </p>
                     </div>
-                    <img src="./img/pdp_tablette - mob .jpg" style="max-height: 29vh;">
+                    <img id="mobpdpmoi" src="./img/pdp_tablette - mob .jpg" style="max-height: 29vh;">
                 </div>
                 <p>Au cours de ma première année, j'ai exploré plusieurs langages de programmation tels que
                     <b>PHP</b>,
@@ -146,7 +146,7 @@
             <div class="slidertext slider-p">
                 <div class="text-slide">
                     <p>Projet DTPL :
-                        Application web de Gestion de BDD réalisé durant le stage de 1ère année</p>
+                        Application web de Gestion de BDD réalisée durant le stage de 1ère année</p>
                     <p>Projet Restos
                         : Projet de développement web réalisé en cours</p>
                     <p>Projet Karaté :
@@ -166,16 +166,18 @@
 
     <div id="gradientveille"></div>
     <div id="Colorveille">
-        <h1 id="veille">Veille Technologique</h1>
+        <h1 id="veille">Veille Technologique/Certifications</h1>
         <div id="divveille">
             <div id="veillep">
                 <p>Il est primordial pour un informaticien de se tenir au courant des nouvelles innovations dans son
-                    domaine. Afin de d'être continuellement informé, je consulte régulièrement les sites "TechCrunch" et
-                    "ZDNet". Etant également souvent actif sur twitter, je suis également des comptes spécialisés, me
-                    permettant donc d'être au fait des nouvelles technologies informatique</p>
+                    domaine. Voici les sites et applications que je consulte afin d'être continuellement informé.</p>
+                <p>Je suis également, et ce grâce à une option de mon BTS, des formations complémentaires appelées
+                    "Certification" sur des technologies et logiciels divers et variés</p>
+                <p>Cliquez sur l'image pour en savoir plus.</p>
+                </p>
             </div>
             <div>
-                <img src="./img/wifi.png">
+                <a href="./veille.html"><img src="./img/wifi.png"></a>
             </div>
         </div>
     </div>
@@ -205,3 +207,25 @@
     <hr style="width: 76%; color: white;">
     <p style="text-align: center;">©2023 Portfolio de Robin KILBERTUS, Tous droits réservés. Dessins par @mar.i.e.l</p>
 </footer>
+
+<script>
+    window.addEventListener('load', function () {
+        const divpagev = document.getElementById('imgmoi');
+        divpagev.style.opacity = '1';
+    });
+
+    window.addEventListener('load', function () {
+        const divpagev = document.getElementById('mobpdpmoi');
+        divpagev.style.opacity = '1';
+    });
+
+    window.addEventListener('load', function () {
+        const divpagev = document.getElementById('divslider');
+        divpagev.style.opacity = '1';
+    });
+
+    window.addEventListener('load', function () {
+        const divpagev = document.getElementById('divveille');
+        divpagev.style.opacity = '1';
+    });
+</script>
